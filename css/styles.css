@@ -167,6 +167,7 @@ body {
 /*----footer-----*/
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -177,6 +178,7 @@ body {
   color: var(--accent-color);
   text-transform: uppercase;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-logo-accent {
   color: #f4f4fd;
