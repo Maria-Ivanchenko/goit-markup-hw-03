@@ -221,11 +221,19 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-nav {
+.header-container {
   display: flex;
   align-items: center;
 }
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
 .nav-menu {
+  display: flex;
+  gap: 40px;
+}
+.contacts-list {
   display: flex;
   gap: 40px;
 }
