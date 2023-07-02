@@ -1,3 +1,9 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 :root {
   --accent-color: #4d5ae5;
   --white-color: #ffffff;
@@ -28,6 +34,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-right: 76px;
 }
 .header-logo-accent {
   color: #2e2f42;
@@ -50,6 +57,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
+  display: flex;
+  align-items: center;
 }
 
 /*----section 1-----*/
@@ -157,6 +166,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 .footer-logo-accent {
   color: #f4f4fd;
@@ -211,4 +221,10 @@ body {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  display: block;
 }
