@@ -227,11 +227,12 @@ body {
 }
 .header-nav {
   display: flex;
-  gap: 40px;
+  align-items: center;
 }
 .nav-menu {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .contacts-list {
   display: flex;
