@@ -148,6 +148,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 72px;
 }
 .worker {
   background-color: #ffffff;
@@ -210,11 +211,15 @@ body {
   color: var(--accent-color);
   background-color: #f4f4fd;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .menu-button:hover,
 .menu-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid;
 }
 .photo-title {
   font-size: 20px;
@@ -287,4 +292,14 @@ img {
 }
 .name-team {
   padding: 32px 16px;
+}
+.menu {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
