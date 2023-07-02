@@ -97,6 +97,7 @@ body {
 /*----section 2-----*/
 .advantages {
   text-align: left;
+  padding: 120px 0;
 }
 
 .advantages-title {
@@ -105,6 +106,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -118,6 +120,7 @@ body {
 /*----section 3-----*/
 .activity {
   text-transform: capitalize;
+  padding-bottom: 120px;
 }
 
 .activity-title {
@@ -127,6 +130,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 /*----section 4-----*/
@@ -248,4 +252,22 @@ body {
 
 img {
   display: block;
+}
+
+.not-title {
+  visibility: hidden;
+}
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+.advantages-element {
+  width: calc((100% - 72px) / 4);
+}
+.activity-list {
+  display: flex;
+  gap: 24px;
+}
+.activity-element {
+  width: calc((100% - 48px) / 3);
 }
