@@ -219,7 +219,7 @@ body {
 .menu-button:focus {
   color: #ffffff;
   background-color: #404bbf;
-  border: 1px solid;
+  border: 1px solid transparent;
 }
 .photo-title {
   font-size: 20px;
@@ -302,4 +302,19 @@ img {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+}
+.photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.photo {
+  width: calc((100% - 48px) / 3);
+}
+.photo-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
