@@ -225,10 +225,6 @@ body {
   display: flex;
   align-items: center;
 }
-.header-nav {
-  display: flex;
-  gap: 40px;
-}
 .nav-menu {
   display: flex;
   gap: 40px;
