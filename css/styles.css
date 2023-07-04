@@ -317,6 +317,7 @@ img {
   border-top: none;
 }
 .visually-hidden {
+  display: none;
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
