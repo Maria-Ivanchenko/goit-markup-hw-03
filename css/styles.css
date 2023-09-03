@@ -15,7 +15,7 @@ body {
   background-color: var(--white-color);
 }
 ul {
-  padding: 1;
+  padding: 0;
 }
 img {
   display: block;
