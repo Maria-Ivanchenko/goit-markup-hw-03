@@ -15,7 +15,7 @@ body {
   background-color: var(--white-color);
 }
 ul {
-  padding: 0;
+  padding: 1;
 }
 img {
   display: block;
@@ -31,6 +31,11 @@ h5,
 h6 {
   margin: 0;
 }
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
 .link {
   text-decoration: none;
   color: #434455;
@@ -41,6 +46,19 @@ h6 {
 }
 /*----HEADER-----*/
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .header-logo {
   color: var(--accent-color);
   text-transform: uppercase;
@@ -55,12 +73,11 @@ h6 {
 .header-logo-accent {
   color: #2e2f42;
 }
-.list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
-
 .nav-li {
   font-size: 16px;
   font-weight: 500;
@@ -77,6 +94,10 @@ h6 {
   letter-spacing: 0.02em;
   font-style: normal;
   margin-left: auto;
+}
+.contacts-list {
+  display: flex;
+  gap: 40px;
 }
 
 /*----section 1-----*/
@@ -123,7 +144,13 @@ h6 {
   text-align: left;
   padding: 120px 0;
 }
-
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+.advantages-element {
+  width: calc((100% - 72px) / 4);
+}
 .advantages-title {
   font-size: 20px;
   font-weight: 500;
@@ -132,7 +159,6 @@ h6 {
   color: #2e2f42;
   margin: 0 0 8px 0;
 }
-
 .advantages-text {
   font-size: 16px;
   font-weight: 400;
@@ -147,7 +173,6 @@ h6 {
   text-transform: capitalize;
   padding-bottom: 120px;
 }
-
 .activity-title {
   font-size: 36px;
   font-weight: 700;
@@ -156,6 +181,13 @@ h6 {
   color: #2e2f42;
   text-align: center;
   margin: 0 0 72px 0;
+}
+.activity-list {
+  display: flex;
+  gap: 24px;
+}
+.activity-element {
+  width: calc((100% - 48px) / 3);
 }
 
 /*----section 4-----*/
@@ -173,10 +205,17 @@ h6 {
   text-align: center;
   margin: 0 0 72px 0;
 }
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .worker {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+}
+.name-team {
+  padding: 32px 16px;
 }
 .team-title-second {
   font-size: 20px;
@@ -227,6 +266,16 @@ h6 {
 }
 
 /*----PAGE 2-----*/
+.menu {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
 .menu-button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -246,6 +295,20 @@ h6 {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
+}
+.photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.photo {
+  width: calc((100% - 48px) / 3);
+}
+.photo-div {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .photo-title {
   font-size: 20px;
@@ -270,74 +333,6 @@ h6 {
   padding: 0 15px;
   margin: 0 auto;
 }
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
-.header-container {
-  display: flex;
-  align-items: center;
-}
-.header-nav {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.nav-menu {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-.contacts-list {
-  display: flex;
-  gap: 40px;
-}
-.advantages-list {
-  display: flex;
-  gap: 24px;
-}
-.advantages-element {
-  width: calc((100% - 72px) / 4);
-}
-.activity-list {
-  display: flex;
-  gap: 24px;
-}
-.activity-element {
-  width: calc((100% - 48px) / 3);
-}
-.team-list {
-  display: flex;
-  gap: 24px;
-}
-.name-team {
-  padding: 32px 16px;
-}
-.menu {
-  padding-top: 96px;
-  padding-bottom: 120px;
-}
-.menu-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 72px;
-}
-.photo-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-.photo {
-  width: calc((100% - 48px) / 3);
-}
-.photo-div {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
